@@ -1,0 +1,641 @@
+@import url(m_style.css);
+.container,
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container .header {
+  width: 100%;
+  height: 0.58rem;
+  background: #4194f0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .header h1 {
+  margin-top: 0.22rem;
+  margin-left: 0.3rem;
+}
+.container .header h1 img {
+  width: 0.4rem;
+  height: auto;
+  background: none;
+}
+.container .header h2 {
+  -webkit-box-flex: 1;
+  margin-top: 0.22rem;
+  margin-left: 0.38rem;
+  font-weight: normal;
+  color: #fff;
+}
+.container .header_xia {
+  width: 100%;
+  height: 1.46rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.container .header_xia b {
+  margin-left: 0.3rem;
+}
+.container .header_xia b img {
+  width: 1.06rem;
+  height: auto;
+  background: none;
+}
+.container .header_xia span img {
+  width: 1.06rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 0;
+  left: 0.3rem;
+}
+.container .header_xia dl {
+  margin-top: 0.18rem;
+}
+.container .header_xia dl dt img {
+  margin-left: 0.16rem;
+}
+.container .header_xia dl dd {
+  margin-left: 0.16rem;
+  margin-top: 0.14rem;
+}
+.container .nav {
+  width: 100%;
+  height: 0.68rem;
+  background: #ffffff;
+}
+.container .nav ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  line-height: 0.66rem;
+}
+.container .nav ul li {
+  border-bottom: 1px solid #ccc;
+  -webkit-box-flex: 1;
+}
+.container .nav ul li a {
+  font-size: 0.26rem;
+}
+.container .nav ul li:first-child {
+  border-bottom: 3px solid #4194f0;
+}
+.container .nav ul .pinjia {
+  border-bottom: 3px solid #4194f0;
+}
+.container .main {
+  width: 100%;
+  height: auto;
+  background: none;
+  margin-top: 0.05rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .main .left {
+  width: 1.38rem;
+  height: auto;
+  background: none;
+}
+.container .main .left ul {
+  background: #f5f5f5;
+}
+.container .main .left ul li {
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.container .main .left ul li a {
+  font-size: 0.24rem;
+  display: block;
+  padding: 0.43rem 0.18rem;
+  color: #929292;
+}
+.container .main .left ul .lihe a {
+  display: block;
+  padding: 0.43rem 0.18rem;
+}
+.container .main .left ul li:first-child {
+  background: #fff;
+}
+.container .main .right {
+  width: 5.04rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .right_nav {
+  width: 100%;
+  height: 0.65rem;
+  background: #f5f5f5;
+  border-left: 0.09rem solid #d8d8d8;
+  border-bottom: 1px solid #eeeeee;
+}
+.container .main .right .right_nav ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .main .right .right_nav ul li {
+  margin-top: 0.1rem;
+  margin-left: 0.26rem;
+  border: 1px solid #999999;
+  width: 0.82rem;
+  height: 0.44rem;
+  background: none;
+  border-radius: 0.18rem;
+  text-align: center;
+}
+.container .main .right .right_nav ul li a {
+  line-height: 0.44rem;
+}
+.container .main .right .beef {
+  position: relative;
+  width: 4.64rem;
+  height: 1.78rem;
+  background: none;
+  margin-left: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .main .right .beef .photo {
+  margin-top: 0.21rem;
+  width: 1.04rem;
+  height: 1.04rem;
+  background: none;
+  border: 1px solid #e1e3e6;
+}
+.container .main .right .beef .photo img {
+  width: 1.04rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .beef .cut {
+  position: absolute;
+  left: -0.19rem;
+  top: 0;
+}
+.container .main .right .beef .cut img {
+  width: 0.6rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .beef .shizi {
+  position: absolute;
+  right: 0;
+  top: 0.92rem;
+}
+.container .main .right .beef .shizi img {
+  width: 0.38rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .beef .title {
+  width: 3.4rem;
+  height: 1.04rem;
+  background: none;
+  margin-left: 0.18rem;
+  margin-top: 0.18rem;
+}
+.container .main .right .beef .title h3 {
+  font-size: 0.28rem;
+  font-weight: normal;
+}
+.container .main .right .beef .title p {
+  margin-top: 0.1rem;
+  font-size: 0.22rem;
+}
+.container .main .right .beef .title .p1 {
+  margin-top: 0.1rem;
+}
+.container .main .right .beef .title .p1 a {
+  font-size: 0.21rem;
+  color: red;
+}
+.container .main .right .beef .title .p1 span {
+  font-size: 0.19rem;
+  margin-left: 0.12rem;
+  text-decoration: line-through;
+  color: #c8c8c8;
+}
+.container .main .right .beef .title .span1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: -1.24rem;
+  margin-top: 0.12rem;
+}
+.container .main .right .beef .title .span1 .span2 {
+  width: 1.78rem;
+  height: auto;
+  background: none;
+  border: 0.01rem solid #ff8c33;
+  color: #ff8c33;
+}
+.container .main .right .beef .title .span1 .two {
+  width: 1rem;
+  height: auto;
+  background: none;
+  background: #ff8c33;
+  border: 1px solid #FF8C33;
+  color: #fff;
+}
+.container .main .right .cope {
+  position: relative;
+  width: 4.64rem;
+  height: 1.56rem;
+  background: none;
+  margin-left: 0.2rem;
+  border-bottom: 1px solid #eeeeee;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .main .right .cope .photo {
+  margin-top: 0.21rem;
+  width: 1.04rem;
+  height: 1.04rem;
+  background: none;
+  border: 1px solid #e1e3e6;
+}
+.container .main .right .cope .photo img {
+  width: 1.04rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .cope .cut {
+  position: absolute;
+  left: -0.19rem;
+  top: 0;
+}
+.container .main .right .cope .cut img {
+  width: 0.6rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .cope .shizi {
+  position: absolute;
+  right: 0;
+  top: 0.92rem;
+}
+.container .main .right .cope .shizi img {
+  width: 0.38rem;
+  height: auto;
+  background: none;
+}
+.container .main .right .cope .title {
+  width: 3.4rem;
+  height: 1.04rem;
+  background: none;
+  margin-left: 0.18rem;
+  margin-top: 0.18rem;
+}
+.container .main .right .cope .title h3 {
+  font-size: 0.28rem;
+  font-weight: normal;
+}
+.container .main .right .cope .title p {
+  margin-top: 0.1rem;
+  font-size: 0.22rem;
+}
+.container .main .right .cope .title .p1 {
+  margin-top: 0.1rem;
+}
+.container .main .right .cope .title .p1 a {
+  font-size: 0.21rem;
+  color: red;
+}
+.container .main .right .cope .title .p1 span {
+  font-size: 0.19rem;
+  margin-left: 0.12rem;
+  text-decoration: line-through;
+  color: #c8c8c8;
+}
+.container .main .right .cope .title .span1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: -1.24rem;
+  margin-top: 0.12rem;
+}
+.container .main .right .cope .title .span1 .span2 {
+  width: 1.78rem;
+  height: auto;
+  background: none;
+  border: 0.01rem solid #ff8c33;
+  color: #ff8c33;
+}
+.container .main .right .cope .title .span1 .two {
+  width: 1rem;
+  height: auto;
+  background: none;
+  background: #ff8c33;
+  border: 1px solid #FF8C33;
+  color: #fff;
+}
+.container .footer {
+  z-index: 50;
+  width: 100%;
+  height: 0.88rem;
+  background: rgba(67, 67, 67, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 0.88rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container .footer .car {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #393939;
+  border-radius: 50%;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 0.1rem solid #4d4d4d;
+  position: absolute;
+  top: -0.28rem;
+  left: 0.18rem;
+}
+.container .footer .car img {
+  width: 0.5rem;
+  height: auto;
+  background: none;
+}
+.container .footer .che {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #4194f0;
+  border-radius: 50%;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 0.1rem solid #4d4d4d;
+  position: absolute;
+  top: -0.28rem;
+  left: 0.18rem;
+}
+.container .footer .che img {
+  width: 0.5rem;
+  height: auto;
+  background: none;
+}
+.container .footer p {
+  -webkit-box-flex: 1;
+  margin-left: 1.37rem;
+  font-size: 0.26rem;
+  color: #fff;
+}
+.container .footer .span {
+  text-align: center;
+  display: block;
+  width: 2.3rem;
+  font-size: 0.32rem;
+  color: #d9d9d9;
+}
+.container .footer .die {
+  background: #ff8c50;
+  color: #fff;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(65, 65, 65, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.zhezhao .fenda {
+  width: 4.65rem;
+  height: 6.3rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.325rem;
+  margin-top: -3.15rem;
+}
+.zhezhao .fenda img {
+  width: 4.65rem;
+  height: auto;
+  background: none;
+}
+.zhezhao .fenda h1 {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+}
+.zhezhao .fenda h1 img {
+  width: 0.52rem;
+  height: auto;
+  background: none;
+}
+.zhezhao .fenda p {
+  width: 100%;
+  border-top: 1px solid #eeeeee;
+  font-size: 0.18rem;
+}
+.zhezhao .fenda p a {
+  margin-top: 0.16rem;
+  display: block;
+  line-height: 0.3rem;
+  margin-left: 0.24rem;
+  margin-right: 0.24rem;
+}
+.footer .car_right {
+  width: 0.6rem;
+  height: 0.25rem;
+  background: #ff493b;
+  border-radius: 0.1rem;
+  position: relative;
+  position: absolute;
+  left: 0.5rem;
+  top: -0.06rem;
+}
+.footer .car_right a {
+  color: #fff;
+  font-size: 0.16rem;
+  position: absolute;
+  top: -0.3rem;
+  left: rem;
+}
+.zhezhao2 {
+  width: 100%;
+  height: 50%;
+  background: rgba(67, 67, 67, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.shopping_car {
+  width: 100%;
+  height: 4.78rem;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.shopping_car .nav {
+  height: 0.69rem;
+  background: #eeeeee;
+  line-height: 0.69rem;
+}
+.shopping_car .nav .a1 {
+  font-size: 0.22rem;
+  margin-left: 0.21rem;
+}
+.shopping_car .nav .a2 {
+  font-size: 0.22rem;
+  margin-left: 5.06rem;
+}
+.shopping_car .food_list {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  width: 6rem;
+  border-bottom: 1px solid #ccc;
+  margin-left: 0.2rem;
+  height: 1.36rem;
+}
+.shopping_car .food_list h1 img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.shopping_car .food_list .img {
+  margin-left: 0.22rem;
+  border: 1px solid #ccc;
+  width: 0.86rem;
+  height: 0.86rem;
+}
+.shopping_car .food_list .img img {
+  width: 0.86rem;
+  height: 0.86rem;
+  background: none;
+}
+.shopping_car .food_list span {
+  margin-left: 0.26rem;
+  font-size: 0.24rem;
+}
+.shopping_car .food_list a {
+  margin-left: 0.3rem;
+  font-size: 0.22rem;
+  color: #ff767d;
+}
+.section {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.1rem;
+}
+.section .title {
+  width: 100%;
+  height: 1.52rem;
+  background: #f2f5f7;
+}
+.section .title .title_content {
+  width: 100%;
+  height: 1.32rem;
+  background: #ffffff;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .title .title_content dl {
+  text-align: center;
+  width: 2.4rem;
+  background: url(../img/images/pinjia_xian_03.jpg) no-repeat right center;
+}
+.section .title .title_content dl dt span {
+  font-size: 0.3rem;
+  color: #ffb82e;
+}
+.section .title .title_content dl dd a {
+  font-size: 0.2rem;
+}
+.section .title .title_content dl dd p {
+  margin-top: 0.15rem;
+  font-size: 0.16rem;
+  color: #999999;
+}
+.section .title .title_content ul {
+  -webkit-box-flex: 1;
+  line-height: 0.52rem;
+  margin-left: 0.64rem;
+}
+.section .title .title_content ul li {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .title .title_content ul li a {
+  font-size: 0.22rem;
+}
+.section .title .title_content ul li img {
+  width: 1.16rem;
+  height: auto;
+  background: none;
+  margin-left: 0.16rem;
+}
+.section .title .title_content ul li span {
+  margin-left: 0.06rem;
+  font-size: 0.2rem;
+  color: #ffb82e;
+}
+.section .pinjia {
+  width: 100%;
+  height: 0.82rem;
+  background: none;
+  margin-left: 0.18rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .pinjia .liong {
+  width: 0.65rem;
+  height: 0.65rem;
+  background: none;
+  background: #dfe1ed;
+  text-align: center;
+  -webkit-box-align: center;
+  border-radius: 50%;
+  margin-top: 0.15rem;
+}
+.section .pinjia .liong img {
+  margin-top: 0.1rem;
+  width: 0.52rem;
+  height: auto;
+  background: none;
+}
+.section .pinjia ul {
+  -webkit-box-flex: 1;
+  margin-left: 0.13rem;
+  margin-top: 0.24rem;
+}
+.section .pinjia ul li img {
+  width: 1.15rem;
+  height: auto;
+  background: none;
+}
+.section .pinjia span {
+  display: block;
+  margin-top: 0.26rem;
+  margin-right: 0.22rem;
+}
+.section .pp {
+  margin-left: 0.16rem;
+  padding-bottom: 0.16rem;
+  margin-top: 0.16rem;
+  width: 6.21rem;
+  border-bottom: 1px solid #ccc;
+}
+.section .pp a {
+  margin-left: 0.97rem;
+}
+.container .dingdan {
+  width: 100%;
+  height: 2.6rem;
+  background: #ff0000;
+}

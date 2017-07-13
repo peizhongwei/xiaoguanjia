@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta  http-equiv="X-UA-Compatible"  content="IE=edge,chrome=1">
+		<meta  name="viewport"  content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<script type="text/javascript">
+			 (function (doc, win) {
+		            var docEl = doc.documentElement,
+		                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		                recalc = function () {
+		                  var clientWidth = docEl.clientWidth;
+		                  if (!clientWidth) return;
+		                  docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+		                };
+		            if (!doc.addEventListener) return;
+		            win.addEventListener(resizeEvt, recalc, false);
+		            doc.addEventListener('DOMContentLoaded', recalc, false);
+		        })(document, window);
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1><img src="img/nav_btn_back.png"/></h1>
+				<h2>杭州西子湖四季三星级商务全国连锁</h2>
+			</div>
+			<div class="header_xia">
+				<b><img src="img/images/room.png"/></b>
+				<span><img src="img/images/dayang.png"/></span>
+				<dl>
+					<dt><img src="img/images/tongpai.png"/></dt>
+					<dd><a href="">商品  22 种</a></dd>
+				</dl>
+			</div>
+			<div class="nav">
+				<ul>
+					<li style="border-bottom: 1px solid #ccc;"><a href="" style=" color: #4194f0;">商品</a></li>
+					<li><a href="" >详情</a></li>
+					<li class="pinjia"><a href="" >评价</a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<div class="title">
+					<div class="title_content">
+						<dl>
+							<dt><span>4.8</span></dt>
+							<dd><a href="">总体评分</a><p>共212人评价</p></dd>
+						</dl>
+						<ul>
+							<li><a href="">送达服务</a><img src="img/images/money_star_03.jpg"/><span>4.8</span></li>
+							<li><a href="">服务态度</a><img src="img/images/money_star_03.jpg"/><span>4.8</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pinjia">
+					<div class="liong">
+						<img src="img/liong.png"/>
+					</div>
+					<ul>
+						<li>匿名用户</li>
+						<li><img src="img/images/money_star_03.jpg"/></li>
+					</ul>
+					<span>
+						2016-08-31    12:28
+					</span>	
+				</div>
+				<p class="pp"><a href="">好好！</a></p>
+				<div class="pinjia">
+					<div class="liong">
+						<img src="img/liong.png"/>
+					</div>
+					<ul>
+						<li>匿名用户</li>
+						<li><img src="img/images/money_star_03.jpg"/></li>
+					</ul>
+					<span>
+						2016-08-31    12:28
+					</span>	
+				</div>
+				<p class="pp"><a href="">好好！</a></p>
+				<div class="pinjia">
+					<div class="liong">
+						<img src="img/liong.png"/>
+					</div>
+					<ul>
+						<li>匿名用户</li>
+						<li><img src="img/images/money_star_03.jpg"/></li>
+					</ul>
+					<span>
+						2016-08-31    12:28
+					</span>	
+				</div>
+				<p class="pp"><a href="">好好！</a></p>
+				<div class="pinjia">
+					<div class="liong">
+						<img src="img/liong.png"/>
+					</div>
+					<ul>
+						<li>匿名用户</li>
+						<li><img src="img/images/money_star_03.jpg"/></li>
+					</ul>
+					<span>
+						2016-08-31    12:28
+					</span>	
+				</div>
+				<p class="pp"><a href="">好好！</a></p>
+			</div>
+	</body>
+</html>
